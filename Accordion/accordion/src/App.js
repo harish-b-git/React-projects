@@ -1,5 +1,6 @@
 
 // import './App.css';
+import Main from './LoginPage';
 import Accordion from './components/Accordion';
 import ImageSlider from './components/Image-slider';
 import LightDarkMode from './components/Light-dark-mode';
@@ -28,7 +29,8 @@ function App() {
 
         {/* <ScrollIndicator url={'https://dummyjson.com/products?limit=100'}  /> */}
 
-        <TabTest />
+        {/* <TabTest /> */}
+        <Main />
 
     </div>
   );
